@@ -1,0 +1,276 @@
+
+:root{
+    --main-font:'Roboto', "Sans","Lato", sans-serif;
+    --secondary-font:'Raleway', "Montserrat", sans-serif;
+    --title-text-colot: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color:#FFFFFF;
+}
+
+body{
+    font-family: var(--main-font);
+    font-weight: 500;
+
+    color: #757575;
+    background: var(--primary-bg-color);
+}
+
+/*============header============*/
+
+.list{
+    list-style:none;
+} 
+
+.link{
+    text-decoration:none;
+}
+
+/*LOGO*/
+
+.logo{
+    font-family: var(--secondary-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+
+    color: #000000;
+}
+
+.logo-shadow{
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo-part{
+    color: var(--accent-color);
+}
+
+/*MENU*/
+
+.link.current{
+    color: var(--accent-color);
+}
+
+.menu-link{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;             
+
+    color: var(--title-text-colot);
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color:var(--accent-color);
+}
+
+/*MAILTO AND TEL*/
+
+.communication{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.mailto-link,
+.tel-link{
+    color: #757575;
+}
+
+.mailto-link:hover,
+.mailto-link:focus{
+    color: var(--accent-color);
+}
+
+/*-----------INDEX--------------*/
+
+
+
+/*============header============*/
+
+/*hero*/
+
+.hero{
+    background: #2F303A;
+}
+
+.hero-text{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: var(--primary-bg-color);
+    }
+
+ .hero-button{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    cursor:pointer;
+
+    color: var(--primary-bg-color);
+
+    background-color: #2196F3;;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    }
+
+    /*quality*/
+
+ .quality-list{
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    }
+
+.quality-title{
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+
+    color: var(--title-text-colot);
+    }
+
+    .quality-description{
+        line-height: 1.71;
+    }
+
+    /*work*/
+
+.our-work-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-colot);
+}
+
+/*team*/
+
+.team{
+    background: #F5F4FA;
+}
+
+.team-title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-colot);
+}
+
+.team-img{
+    background: url(4853.jpg);
+    border-radius: 0px;
+}
+
+.team-representative{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: var(--title-text-colot);
+}
+
+.team-profession{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/*============FOOTER===============*/
+.footer{
+    background: #2F303A;
+}
+
+.logo-footer{
+    color: var(--primary-bg-color);
+}
+
+.footer-item{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.17;
+
+    letter-spacing: 0.03em;
+}
+
+.footer-adress{
+    color: var(--primary-bg-color);
+}
+
+.footer-mailto,
+.footer-tel{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*-----------PORTFOLIO-------------*/
+
+.button{
+    font-family:var(--main-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    cursor:pointer;
+
+    color: var(--title-text-colot);
+    background-color: #F5F4FA;
+    border-radius: 4px;
+}
+
+.button:focus,
+.button:hover{
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;;
+}
+
+.portfolio-item{
+    background-color: var(--primary-bg-color);
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+}
+
+.portfolio-title{
+    font-family: var(--main-font);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    letter-spacing: 0.06em;
+
+    color: var(--title-text-colot);
+}
+
+.portfolio-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+
+    letter-spacing: 0.03em;
+}
