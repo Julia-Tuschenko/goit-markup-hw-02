@@ -107,6 +107,7 @@ body{
     }
 
  .hero-button{
+    font-family: var(--main-font);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
@@ -135,6 +136,7 @@ body{
 
 .quality-title{
     font-weight: 700;
+    font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 
